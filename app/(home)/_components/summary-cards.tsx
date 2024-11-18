@@ -1,6 +1,5 @@
 import { PiggyBank, TrendingDown, TrendingUp, Wallet } from "lucide-react";
 import { SummaryCard } from "./summary-card";
-import { db } from "@/app/_lib/prisma";
 
 interface SummaryCardsProps {
   month: string;
@@ -11,7 +10,6 @@ interface SummaryCardsProps {
 }
 
 export async function SummaryCards({
-  month,
   balance,
   totalDeposit,
   totalExpense,

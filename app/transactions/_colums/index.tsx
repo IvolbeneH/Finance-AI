@@ -4,7 +4,7 @@ import { Transactions } from "@prisma/client";
 import { ColumnDef } from "@tanstack/react-table";
 import { TypeBadge } from "./_components/type.badge";
 import { Button } from "@/app/_components/ui/button";
-import { Pencil, Trash } from "lucide-react";
+import { Trash } from "lucide-react";
 import {
   TRANSACTION_CATEGORY_LABELS,
   TRANSACTION_PAYMENT_METHOD_LABELS,
