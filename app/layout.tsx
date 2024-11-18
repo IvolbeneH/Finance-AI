@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${mulish.className} dark antialiased`}>
+      <body className={`${mulish.className} dark bg-[#0F0E11] antialiased`}>
         <ClerkProvider
           appearance={{
             baseTheme: dark,
